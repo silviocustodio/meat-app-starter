@@ -22,6 +22,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { ShoppingCartService } from './restaurant-detail/shopping-cart/shopping-cart.service';
 import { OrderComponent } from '../../src/app/order/order.component';
 import { InputComponent } from '../app/shared/input/input.component';
+import { RadioComponent } from '../app/shared/radio/radio.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { InputComponent } from '../app/shared/input/input.component';
     ReviewsComponent,
     OrderComponent,
     InputComponent,
+    RadioComponent,
   ],
   imports: [
     BrowserModule,
